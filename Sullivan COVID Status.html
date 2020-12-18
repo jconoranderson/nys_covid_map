@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="b0d984cf-2248-4c8a-87b1-085b4b2477e6" data-root-id="2562"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2683">
+          {"89af8906-df11-4939-b41f-8125185ce718":{"roots":{"references":[{"attributes":{"label":{"value":" % Positive"},"renderers":[{"id":"2528"}]},"id":"2538","type":"LegendItem"},{"attributes":{},"id":"2388","type":"LinearScale"},{"attributes":{},"id":"2426","type":"BasicTickFormatter"},{"attributes":{"children":[{"id":"2561"},{"id":"2559"}]},"id":"2562","type":"Column"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"2406","type":"BoxAnnotation"},{"attributes":{},"id":"2405","type":"HelpTool"},{"attributes":{},"id":"2390","type":"LinearScale"},{"attributes":{"ticks":[0,1,2,3,4,5]},"id":"2449","type":"FixedTicker"},{"attributes":{},"id":"2536","type":"UnionRenderers"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"2514","type":"BoxAnnotation"},{"attributes":{"items":[{"id":"2433"},{"id":"2446"}]},"id":"2432","type":"Legend"},{"attributes":{"axis":{"id":"2392"},"ticker":null},"id":"2395","type":"Grid"},{"attributes":{},"id":"2535","type":"Selection"},{"attributes":{},"id":"2400","type":"PanTool"},{"attributes":{"overlay":{"id":"2406"}},"id":"2402","type":"BoxZoomTool"},{"attributes":{},"id":"2403","type":"SaveTool"},{"attributes":{},"id":"2404","type":"ResetTool"},{"attributes":{"callback":null,"mode":"vline","renderers":[{"id":"2528"}],"tooltips":"&lt;h2&gt; @{County} County&lt;/h2&gt; \n                          &lt;h3&gt; All_Positives: @{All_Positives} &lt;/h3&gt;\n                          &lt;h3&gt; Percentage Positives: @{% Positive} % &lt;/h3&gt;"},"id":"2539","type":"HoverTool"},{"attributes":{},"id":"2384","type":"DataRange1d"},{"attributes":{"code":"\n                                    var labels = {0: 'Delaware', 1: 'Greene', 2: 'Orange', 3: 'Rockland', 4: 'Sullivan', 5: 'Ulster'};\n                                    return labels[tick];\n                                    "},"id":"2414","type":"FuncTickFormatter"},{"attributes":{"fill_alpha":{"value":0.6},"fill_color":{"value":"red"},"line_alpha":{"value":0.6},"line_color":{"value":"red"},"line_width":{"value":2},"top":{"field":"% Positive"},"width":{"value":0.7},"x":{"field":"__x__values","transform":{"id":"2524"}}},"id":"2526","type":"VBar"},{"attributes":{"source":{"id":"2488"}},"id":"2529","type":"CDSView"},{"attributes":{"below":[{"id":"2392"}],"center":[{"id":"2395"},{"id":"2399"},{"id":"2432"}],"left":[{"id":"2396"}],"output_backend":"webgl","plot_width":800,"renderers":[{"id":"2423"},{"id":"2437"}],"sizing_mode":"fixed","title":{"id":"2382"},"toolbar":{"id":"2407"},"toolbar_location":null,"x_range":{"id":"2384"},"x_scale":{"id":"2388"},"y_range":{"id":"2386"},"y_scale":{"id":"2390"}},"id":"2381","subtype":"Figure","type":"Plot"},{"attributes":{"ticks":[0,1,2,3,4,5]},"id":"2541","type":"FixedTicker"},{"attributes":{"range":{"id":"2492"}},"id":"2524","type":"Dodge"},{"attributes":{"callback":null,"mode":"vline","renderers":[{"id":"2437"}],"tooltips":"&lt;h2&gt; @{County} County&lt;/h2&gt; \n                          &lt;h3&gt; New_Tests: @{New_Tests} &lt;/h3&gt;\n                          &lt;h3&gt; New_Positives: @{New_Positives} &lt;/h3&gt;\n                          &lt;h3&gt; Percentage Positives: @{% Positive} % &lt;/h3&gt;"},"id":"2447","type":"HoverTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"red"},"line_alpha":{"value":0.1},"line_color":{"value":"red"},"line_width":{"value":2},"top":{"field":"% Positive"},"width":{"value":0.7},"x":{"field":"__x__values","transform":{"id":"2524"}}},"id":"2527","type":"VBar"},{"attributes":{"text":"New_Tests - Sullivan County Area, Data as of: 2020-12-17, 17:50:37"},"id":"2382","type":"Title"},{"attributes":{"data_source":{"id":"2488"},"glyph":{"id":"2526"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2527"},"selection_glyph":null,"view":{"id":"2529"}},"id":"2528","type":"GlyphRenderer"},{"attributes":{"source":{"id":"2380"}},"id":"2424","type":"CDSView"},{"attributes":{"click_policy":"hide","items":[{"id":"2538"}]},"id":"2537","type":"Legend"},{"attributes":{"axis_label":"County","formatter":{"id":"2414"},"ticker":{"id":"2449"}},"id":"2392","type":"LinearAxis"},{"attributes":{},"id":"2430","type":"Selection"},{"attributes":{},"id":"2431","type":"UnionRenderers"},{"attributes":{"below":[{"id":"2500"}],"center":[{"id":"2503"},{"id":"2507"},{"id":"2537"}],"left":[{"id":"2504"}],"output_backend":"webgl","plot_width":800,"renderers":[{"id":"2528"}],"sizing_mode":"fixed","title":{"id":"2490"},"toolbar":{"id":"2515"},"toolbar_location":null,"x_range":{"id":"2492"},"x_scale":{"id":"2496"},"y_range":{"id":"2494"},"y_scale":{"id":"2498"}},"id":"2489","subtype":"Figure","type":"Plot"},{"attributes":{"data":{"% Positive":{"__ndarray__":"11BeQ3kNBUDFEkssscQCQGyg/Boovx5AxwxepQXuGkDvaYTlnkYcQKG8hvIaChZA","dtype":"float64","order":"little","shape":[6]},"County":["Delaware","Greene","Orange","Rockland","Sullivan","Ulster"],"New_Positives":[4,8,210,232,41,67],"New_Tests":[152,341,2732,3446,580,1216],"__x__values":[0,1,2,3,4,5],"__x__values_original":["Delaware","Greene","Orange","Rockland","Sullivan","Ulster"]},"selected":{"id":"2430"},"selection_policy":{"id":"2431"}},"id":"2380","type":"ColumnDataSource"},{"attributes":{"toolbars":[{"id":"2407"},{"id":"2515"}],"tools":[{"id":"2400"},{"id":"2401"},{"id":"2402"},{"id":"2403"},{"id":"2404"},{"id":"2405"},{"id":"2447"},{"id":"2508"},{"id":"2509"},{"id":"2510"},{"id":"2511"},{"id":"2512"},{"id":"2513"},{"id":"2539"}]},"id":"2560","type":"ProxyToolbar"},{"attributes":{"code":"\n                                    var labels = {0: 'Delaware', 1: 'Greene', 2: 'Orange', 3: 'Rockland', 4: 'Sullivan', 5: 'Ulster'};\n                                    return labels[tick];\n                                    "},"id":"2522","type":"FuncTickFormatter"},{"attributes":{},"id":"2531","type":"BasicTickFormatter"},{"attributes":{"toolbar":{"id":"2560"},"toolbar_location":"above"},"id":"2561","type":"ToolbarBox"},{"attributes":{"data":{"% Positive":{"__ndarray__":"11BeQ3kNBUDFEkssscQCQGyg/Boovx5AxwxepQXuGkDvaYTlnkYcQKG8hvIaChZA","dtype":"float64","order":"little","shape":[6]},"All_Positives":[538,922,20324,24787,2551,4614],"County":["Delaware","Greene","Orange","Rockland","Sullivan","Ulster"],"__x__values":[0,1,2,3,4,5],"__x__values_original":["Delaware","Greene","Orange","Rockland","Sullivan","Ulster"]},"selected":{"id":"2535"},"selection_policy":{"id":"2536"}},"id":"2488","type":"ColumnDataSource"},{"attributes":{"axis_label":"County","formatter":{"id":"2522"},"ticker":{"id":"2541"}},"id":"2500","type":"LinearAxis"},{"attributes":{"text":"Percentage Positive Sullivan County Area, Data as of: 2020-12-17, 17:50:37"},"id":"2490","type":"Title"},{"attributes":{},"id":"2494","type":"DataRange1d"},{"attributes":{},"id":"2492","type":"DataRange1d"},{"attributes":{"fields":["New_Positives"]},"id":"2417","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"2418"}},"fill_alpha":{"value":0.6},"fill_color":{"value":"orange"},"line_alpha":{"value":0.6},"line_color":{"value":"orange"},"line_width":{"value":2},"top":{"expr":{"id":"2419"}},"width":{"value":0.8},"x":{"field":"__x__values"}},"id":"2435","type":"VBar"},{"attributes":{},"id":"2496","type":"LinearScale"},{"attributes":{},"id":"2509","type":"WheelZoomTool"},{"attributes":{"bottom":{"expr":{"id":"2418"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"orange"},"line_alpha":{"value":0.1},"line_color":{"value":"orange"},"line_width":{"value":2},"top":{"expr":{"id":"2419"}},"width":{"value":0.8},"x":{"field":"__x__values"}},"id":"2436","type":"VBar"},{"attributes":{"axis":{"id":"2500"},"ticker":null},"id":"2503","type":"Grid"},{"attributes":{"children":[[{"id":"2381"},0,0],[{"id":"2489"},0,1]]},"id":"2559","type":"GridBox"},{"attributes":{},"id":"2498","type":"LinearScale"},{"attributes":{"label":{"value":"New_Positives"},"renderers":[{"id":"2423"}]},"id":"2433","type":"LegendItem"},{"attributes":{"source":{"id":"2380"}},"id":"2438","type":"CDSView"},{"attributes":{"data_source":{"id":"2380"},"glyph":{"id":"2435"},"hover_glyph":null,"muted_glyph":null,"name":"New_Tests","nonselection_glyph":{"id":"2436"},"selection_glyph":null,"view":{"id":"2438"}},"id":"2437","type":"GlyphRenderer"},{"attributes":{"axis_label":"Tests/Cases","formatter":{"id":"2531"},"ticker":{"id":"2505"}},"id":"2504","type":"LinearAxis"},{"attributes":{"axis":{"id":"2504"},"dimension":1,"ticker":null},"id":"2507","type":"Grid"},{"attributes":{"label":{"value":"New_Tests"},"renderers":[{"id":"2437"}]},"id":"2446","type":"LegendItem"},{"attributes":{},"id":"2505","type":"BasicTicker"},{"attributes":{"active_drag":null,"active_inspect":"auto","active_multi":null,"active_scroll":null,"active_tap":"auto","tools":[{"id":"2400"},{"id":"2401"},{"id":"2402"},{"id":"2403"},{"id":"2404"},{"id":"2405"},{"id":"2447"}]},"id":"2407","type":"Toolbar"},{"attributes":{"active_drag":null,"active_inspect":"auto","active_multi":null,"active_scroll":null,"active_tap":"auto","tools":[{"id":"2508"},{"id":"2509"},{"id":"2510"},{"id":"2511"},{"id":"2512"},{"id":"2513"},{"id":"2539"}]},"id":"2515","type":"Toolbar"},{"attributes":{"fields":["New_Positives"]},"id":"2418","type":"Stack"},{"attributes":{"axis":{"id":"2396"},"dimension":1,"ticker":null},"id":"2399","type":"Grid"},{"attributes":{},"id":"2513","type":"HelpTool"},{"attributes":{"bottom":{"expr":{"id":"2416"}},"fill_alpha":{"value":0.6},"fill_color":{"value":"red"},"line_alpha":{"value":0.6},"line_color":{"value":"red"},"line_width":{"value":2},"top":{"expr":{"id":"2417"}},"width":{"value":0.8},"x":{"field":"__x__values"}},"id":"2421","type":"VBar"},{"attributes":{"fields":["New_Positives","New_Tests"]},"id":"2419","type":"Stack"},{"attributes":{},"id":"2508","type":"PanTool"},{"attributes":{"fields":[]},"id":"2416","type":"Stack"},{"attributes":{"overlay":{"id":"2514"}},"id":"2510","type":"BoxZoomTool"},{"attributes":{},"id":"2511","type":"SaveTool"},{"attributes":{},"id":"2386","type":"DataRange1d"},{"attributes":{"bottom":{"expr":{"id":"2416"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"red"},"line_alpha":{"value":0.1},"line_color":{"value":"red"},"line_width":{"value":2},"top":{"expr":{"id":"2417"}},"width":{"value":0.8},"x":{"field":"__x__values"}},"id":"2422","type":"VBar"},{"attributes":{},"id":"2512","type":"ResetTool"},{"attributes":{"data_source":{"id":"2380"},"glyph":{"id":"2421"},"hover_glyph":null,"muted_glyph":null,"name":"New_Positives","nonselection_glyph":{"id":"2422"},"selection_glyph":null,"view":{"id":"2424"}},"id":"2423","type":"GlyphRenderer"},{"attributes":{},"id":"2397","type":"BasicTicker"},{"attributes":{},"id":"2401","type":"WheelZoomTool"},{"attributes":{"axis_label":"Tests/Cases","formatter":{"id":"2426"},"ticker":{"id":"2397"}},"id":"2396","type":"LinearAxis"}],"root_ids":["2562"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2683').textContent;
+                  var render_items = [{"docid":"89af8906-df11-4939-b41f-8125185ce718","root_ids":["2562"],"roots":{"2562":"b0d984cf-2248-4c8a-87b1-085b4b2477e6"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
